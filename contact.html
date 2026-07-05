@@ -10,7 +10,7 @@
 <header>
     <div class="container nav-wrap">
         <div class="logo-area">
-            <img class="logo" src="assets/images/logo.png" alt="文藻學生會會徽">
+            <img class="logo" src="logo.png" alt="文藻學生會會徽">
             <h3>學生會財務傳承系統</h3>
         </div>
         <ul class="nav-list">
@@ -22,15 +22,6 @@
             <li><a href="contact.html">FAQ & 諮詢</a></li>
             <li><a href="about.html">關於我們</a></li>
         </ul>
-        <select class="lang-select" id="langSwitch">
-            <option value="zh-TW" selected>繁體中文</option>
-            <option value="lang/zh-CN.html">简体中文</option>
-            <option value="lang/en.html">English</option>
-            <option value="lang/fr.html">Français</option>
-            <option value="lang/de.html">Deutsch</option>
-            <option value="lang/es.html">Español</option>
-            <option value="lang/ja.html">日本語</option>
-        </select>
     </div>
 </header>
 <section class="section">
@@ -47,7 +38,7 @@
         <h3>線上諮詢表單</h3>
         <div class="embed-box">
             <!-- 替換你的Google表單嵌入網址 -->
-            <iframe width="100%" height="600" src="填入你的Google諮詢表單連結" frameborder="0"></iframe>
+            <iframe width="100%" height="600" src="" frameborder="0"></iframe>
         </div>
     </div>
 </section>
@@ -56,11 +47,5 @@
         <p>©2026 文藻外語大學學生會財務部</p>
     </div>
 </footer>
-<script>
-document.getElementById("langSwitch").addEventListener("change",function(){
-    const target = this.value;
-    if(target !== "zh-TW") window.location.href = target;
-})
-</script>
 </body>
 </html>
