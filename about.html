@@ -1,0 +1,69 @@
+<!DOCTYPE html lang="zh-TW">
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>關於學生會行政中心</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="container nav-wrap">
+        <div class="logo-area">
+            <img class="logo" src="assets/images/logo.png" alt="文藻學生會會徽">
+            <h3>學生會財務傳承系統</h3>
+        </div>
+        <ul class="nav-list">
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="handbook.html">財務傳承手冊</a></li>
+            <li><a href="download.html">表單下載區</a></li>
+            <li><a href="quiz.html">財務知識測驗</a></li>
+            <li><a href="fee.html">學生會費繳納</a></li>
+            <li><a href="contact.html">FAQ & 諮詢</a></li>
+            <li><a href="about.html">關於我們</a></li>
+        </ul>
+        <select class="lang-select" id="langSwitch">
+            <option value="zh-TW" selected>繁體中文</option>
+            <option value="lang/zh-CN.html">简体中文</option>
+            <option value="lang/en.html">English</option>
+            <option value="lang/fr.html">Français</option>
+            <option value="lang/de.html">Deutsch</option>
+            <option value="lang/es.html">Español</option>
+            <option value="lang/ja.html">日本語</option>
+        </select>
+    </div>
+</header>
+<section class="section">
+    <div class="container">
+        <div class="section-title">
+            <h1>關於文藻外語大學學生會行政中心－財務部</h1>
+        </div>
+        <div style="background:#fff;padding:30px;border-radius:10px;">
+            <h3>一、單位職責</h3>
+            <p>負責全校學生會預算編列、經費審核、活動核銷、會費收納、各類款項領撥、歷屆財務資料傳承教學。</p>
+            <br>
+            <h3>二、學校資訊</h3>
+            <p>地址：80793 高雄市三民區民族一路900號</p>
+            <p>會計室分機：1301、1302、1303</p>
+            <br>
+            <h3>三、社群連結</h3>
+            <p>學生會IG：<a href="https://www.instagram.com/wenzao_su/" target="_blank">https://www.instagram.com/wenzao_su/</a></p>
+            <br>
+            <h3>四、網站用途</h3>
+            <p>專屬財務傳承知識平台，提供完整流程教學與所有官方空白表單，開放全校師生、合作廠商查閱。</p>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container" style="margin-top:30px;text-align:center;border-top:1px #eee solid;padding-top:20px;">
+        <p>©2026 文藻外語大學學生會財務部</p>
+    </div>
+</footer>
+<script>
+document.getElementById("langSwitch").addEventListener("change",function(){
+    const target = this.value;
+    if(target !== "zh-TW") window.location.href = target;
+})
+</script>
+</body>
+</html>
