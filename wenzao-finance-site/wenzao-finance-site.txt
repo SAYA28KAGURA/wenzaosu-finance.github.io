@@ -1,0 +1,13 @@
+wenzao-finance-site/
+├─ index.html          首頁
+├─ handbook.html       財務傳承手冊頁
+├─ download.html       表單下載頁
+├─ quiz.html           財務測驗頁（嵌入Google問卷）
+├─ fee.html             會費繳納頁
+├─ contact.html        FAQ+諮詢表單（嵌入Google表單）
+├─ about.html          關於我們
+├─ style.css           全域樣式（全站共用）
+├─ assets/             圖片、檔案資料夾
+│  ├─ images/          會徽、星星人、浮水印圖片
+│  └─ files/          所有Word/PDF/Excel表單、手冊PDF
+└─ lang/               多語頁面（zh-CN.html / en.html / fr.html / de.html / es.html / ja.html）
