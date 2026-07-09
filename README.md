@@ -1,4 +1,4 @@
-# wenzaosu-finance.github.io
+# https://saya28kagura.github.io/wenzaosu-finance.github.io/
 
 文藻外語大學第25屆學生會行政中心財務部【財務傳承網站】
 
